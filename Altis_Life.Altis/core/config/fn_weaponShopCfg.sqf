@@ -48,27 +48,6 @@ switch(_shop) do
 		};
 	};
 	
-	case "med_basic":
-	{
-		switch (true) do 
-		{
-			case (playerSide != independent): {"You are not an EMS Medic"};
-			default {
-				["Hospital EMS Shop",
-					[
-						["ItemGPS",nil,100],
-						["Binocular",nil,150],
-						["ToolKit",nil,250],
-						["FirstAidKit",nil,150],
-						["Medikit",nil,500],
-						["NVGoggles",nil,1200],
-						["B_FieldPack_ocamo",nil,3000]
-					]
-				];
-			};
-		};
-	};
-
 	case "cop_patrol":
 	{
 		switch(true) do
@@ -96,24 +75,191 @@ switch(_shop) do
 	};
 
 	case "cop_sergeant":
+        {
+                switch(true) do
+                {
+                        case (playerSide != west): {"You are not a cop!"};
+                        case (__GETC__(life_coplevel) < 4): {"You are not a Sergeant rank!"};
+                        default
+                        {
+                                ["Arcadia PD Altis Sergeant Shop",
+                                        [
+                                                ["arifle_MXM_F",nil,5000],
+												["SMG_01_F",nil,1500],
+												["30Rnd_45ACP_Mag_SMG_01:",nil,200],
+												["30Rnd_65x39_caseless_mag",nil,200],
+                                                ["ToolKit",nil,0],
+                                                ["itemgps",nil,0],
+                                                ["ItemMap",nil,0],
+                                                ["FirstAidKit",nil,0],
+                                                ["MediKit",nil,5000],
+                                                ["Rangefinder",nil,7500],
+                                                ["NVGoggles",nil,0],
+                                                ["MineDetector",nil,550],
+                        ["SmokeShell",nil,500],
+                        ["MiniGrenade",nil,500],
+                        ["HandGrenade",nil,500],
+                        ["Chemlight_red",nil,500],
+                        ["Chemlight_green",nil,500]
+                                        ]
+                                ];
+                        };
+                };
+        };
+	
+case "cop_Staff_Sergeant":
 	{
 		switch(true) do
 		{
 			case (playerSide != west): {"You are not a cop!"};
-			case (__GETC__(life_coplevel) < 3): {"You are not at a sergeant rank!"};
+			case (__GETC__(life_coplevel) < 5): {"You are not  a Staff Sergeant!"};
 			default
 			{
-				["Altis Sergeant Officer Shop",
+				["Altis Staff Sergeant Shop",
 					[
-						["SMG_02_ACO_F",nil,15000],
-						["hgun_ACPC2_F",nil,17500],
+						["arifle_MX_F",nil,35000],
+						["SMG_02_ACO_F",nil,30000],
 						["HandGrenade_Stone","Flashbang",1700],
-						["arifle_MXC_F",nil,30000],
+						["MineDetector",nil,1000],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
 						["optic_Arco",nil,2500],
 						["muzzle_snds_H",nil,2750],
-						["30Rnd_65x39_caseless_mag",nil,100],
-						["30Rnd_9x21_Mag",nil,60],
-						["9Rnd_45ACP_Mag",nil,200]
+						["30Rnd_65x39_caseless_mag",nil,130],
+						["30Rnd_9x21_Mag",nil,250]
+                                        ]
+                                ];
+                        };
+                };
+        };
+	
+	case "cop_Staff_Sergeant":
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"You are not a cop!"};
+			case (__GETC__(life_coplevel) < 6): {"You are not a 2nd Lieutenant!"};
+			default
+			{
+				["Altis 2nd Lieutenant Shop",
+					[
+						["arifle_MX_F",nil,30000],
+						["srifle_DMR_03_F",nil,20000],
+						["SMG_02_ACO_F",nil,30000],
+						["HandGrenade_Stone","Flashbang",1700],
+						["MineDetector",nil,1000],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_Arco",nil,2500],
+						["muzzle_snds_H",nil,2750],
+						["20Rnd_762x51_Mag",nil,130],
+						["30Rnd_65x39_caseless_mag",nil,130],
+						["30Rnd_9x21_Mag",nil,250]
+                                        ]
+                                ];
+                        };
+                };
+        };
+		
+	case "cop_Staff_Sergeant":
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"You are not a cop!"};
+			case (__GETC__(life_coplevel) < 7): {"You are not a 2nd Lieutenant!"};
+			default
+			{
+				["Altis 2nd Lieutenant Shop",
+					[
+						["arifle_MX_F",nil,35000],
+						["SMG_02_ACO_F",nil,30000],
+						["HandGrenade_Stone","Flashbang",1700],
+						["MineDetector",nil,1000],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_Arco",nil,2500],
+						["muzzle_snds_H",nil,2750],
+						["30Rnd_65x39_caseless_mag",nil,130],
+						["30Rnd_9x21_Mag",nil,250]
+                                        ]
+                                ];
+                        };
+                };
+        };
+		
+	case "cop_Staff_Sergeant":
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"You are not a cop!"};
+			case (__GETC__(life_coplevel) < 8): {"You are not a 1st Lieutenant!"};
+			default
+			{
+				["Altis 1st Lieutenant Shop",
+					[
+						["arifle_MX_F",nil,35000],
+						["SMG_02_ACO_F",nil,30000],
+						["srifle_EBR_F",nil,25000],
+						["LMG_Mk200_F",nil,25000],
+						["srifle_DMR_02_F",nil,25000],
+						["HandGrenade_Stone","Flashbang",1700],
+						["MineDetector",nil,1000],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_Arco",nil,2500],
+						["muzzle_snds_H",nil,2750],
+						["30Rnd_65x39_caseless_mag",nil,130],
+						["20Rnd_762x51_Mag",nil,130],
+						["200Rnd_65x39_cased_Box",nil,250],
+						["10Rnd_338_Mag",nil,250],
+						["30Rnd_9x21_Mag",nil,250]
+                                        ]
+                                ];
+                        };
+                };
+        };
+		
+	case "cop_Staff_Sergeant":
+	{
+		switch(true) do
+		{
+			case (playerSide != west): {"You are not a cop!"};
+			case (__GETC__(life_coplevel) < 9): {"You are not a Captain!"};
+			default
+			{
+				["Altis Captain Shop",
+					[
+						["arifle_MX_F",nil,35000],
+						["SMG_02_ACO_F",nil,30000],
+						["HandGrenade_Stone","Flashbang",1700],
+						["MineDetector",nil,1000],
+						["acc_flashlight",nil,750],
+						["optic_Holosight",nil,1200],
+						["optic_Arco",nil,2500],
+						["muzzle_snds_H",nil,2750],
+						["30Rnd_65x39_caseless_mag",nil,130],
+						["30Rnd_9x21_Mag",nil,250]
+                                        ]
+                                ];
+                        };
+                };
+        };
+	
+	case "med_basic":
+	{
+		switch (true) do 
+		{
+			case (playerSide != independent): {"You are not an EMS Medic"};
+			default {
+				["Hospital EMS Shop",
+					[
+						["ItemGPS",nil,100],
+						["Binocular",nil,150],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["Medikit",nil,500],
+						["NVGoggles",nil,1200],
+						["B_FieldPack_ocamo",nil,3000]
 					]
 				];
 			};
