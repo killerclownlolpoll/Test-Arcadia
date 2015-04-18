@@ -146,7 +146,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_16";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 16";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item1
 				{
@@ -159,7 +159,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_17";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 17";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item2
 				{
@@ -172,7 +172,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_18";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Bomb Squad 1";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item3
 				{
@@ -185,7 +185,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_13";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 13";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item4
 				{
@@ -198,7 +198,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_6";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 6";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item5
 				{
@@ -211,7 +211,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_11";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 11";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item6
 				{
@@ -224,7 +224,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_7";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 7";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item7
 				{
@@ -237,7 +237,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_12";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 12";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item8
 				{
@@ -250,7 +250,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_14";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 14";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item9
 				{
@@ -264,7 +264,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_19";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Bomb Squad 2";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item10
 				{
@@ -277,7 +277,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_15";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 15";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item11
 				{
@@ -290,7 +290,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_9";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 9";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item12
 				{
@@ -303,7 +303,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_8";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 8";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item13
 				{
@@ -316,7 +316,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_4";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 4";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item14
 				{
@@ -329,7 +329,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_2";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 2";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item15
 				{
@@ -342,7 +342,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_3";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 3";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item16
 				{
@@ -355,7 +355,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_5";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 5";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item17
 				{
@@ -368,7 +368,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_10";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="WhiteListed - Cop 10";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 				class Item18
 				{
@@ -382,7 +382,7 @@ class Mission
 					skill=0.60000002;
 					text="cop_1";
 					init="removeBackpack this; removeAllWeapons this;";
-					description="Public Slot - Cop 1";
+					description="WhiteListed Cop - Teamspeak:ca7.progamerhosting.com:9034";
 				};
 			};
 		};
@@ -2709,7 +2709,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
 					text="h1_3";
-					init="this enableSimulation false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Cop Weapon Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Patrol Officer Weapon Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_sergeant""]; this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west ']; this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
+					init="this enableSimulation false; this addAction[""Cop Item Shop"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[""Cop Clothing Shop"",life_fnc_clothingMenu,""cop""];  this addAction[""Cop Weapon Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[""Patrol Officer Weapon Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[""Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_sergeant""];  this addAction[""Staff Sergeant Weapon Shop"",life_fnc_weaponShopMenu,""cop_staff_sergeant""];  this addAction[""2nd Lieutenant Weapon Shop"",life_fnc_weaponShopMenu,""cop_2nd_lieutenant""];  this addAction[""1st Lieutenant Weapon Shop"",life_fnc_weaponShopMenu,""cop_1st_lieutenant""];  this addAction[""Captain Weapon Shop"",life_fnc_weaponShopMenu,""cop_captain""];  this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west ']; this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west '];";
 				};
 				class Item51
 				{
